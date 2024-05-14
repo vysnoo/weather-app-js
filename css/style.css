@@ -7,7 +7,7 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background: #222;
+  background: white;
 }
 
 .card {
@@ -19,6 +19,7 @@ body {
   border-radius: 20px;
   padding: 40px 35px;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .search {
@@ -39,6 +40,7 @@ body {
   flex: 1;
   margin-right: 16px;
   font-size: 18px;
+  text-transform: capitalize;
 }
 .search button {
   border: 0;

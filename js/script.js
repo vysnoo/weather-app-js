@@ -18,10 +18,21 @@ async function checkWeather(city) {
   document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
   document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
 
-  if (data.weather[0].main == "clouds") {
+  // Check - List of weather condition codes in  openweathermap.org
+  // In json weather condition code first letter will be in caps... Eg: Clouds,Clear,Rain.Drizzle,Mist
+
+  if (data.weather[0].main == "Clouds") {
     weatherIcon.src = "images/clouds.png";
-  } else if (data.weather[0].main) {
-    weatherIcon.src = "";
+  } else if (data.weather[0].main == "Clear") {
+    weatherIcon.src = "images/clear.png";
+  } else if (data.weather[0].main == "Rain") {
+    weatherIcon.src = "images/rain.png";
+  } else if (data.weather[0].main == "Drizzle") {
+    weatherIcon.src = "images/drizzle.png";
+  } else if (data.weather[0].main == "Mist") {
+    weatherIcon.src = "images/mist.png";
+  } else if (data.weather[0].main == "Snow") {
+    weatherIcon.src = "images/snow.png";
   }
 }
 
