@@ -91,3 +91,13 @@ body {
   font-size: 28px;
   margin-top: -6px;
 }
+
+@media screen and (max-width: 465px) {
+  .search input {
+    width: 100px;
+  }
+
+  .search input::placeholder {
+    font-size: 15px;
+  }
+}
