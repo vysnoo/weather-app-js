@@ -94,6 +94,20 @@ body {
 }
 
 @media screen and (max-width: 465px) {
+  .card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 25px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-bottom: 25px;
+  }
+
   .search input {
     border: 0;
     outline: 0;
