@@ -98,6 +98,18 @@ body {
   }
 
   .search input::placeholder {
-    font-size: 15px;
+    font-size: 10px;
+  }
+
+  .details {
+    display: block;
+    padding-left: 20%;
+  }
+  .details .col {
+    margin-top: 30px;
+  }
+
+  .details .col div p:first-child {
+    font-size: 20px;
   }
 }
