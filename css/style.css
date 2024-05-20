@@ -104,13 +104,13 @@ body {
     border-radius: 30px;
     flex: 1;
     margin-right: 16px;
-    font-size: 15px;
+    font-size: 13px;
     text-transform: capitalize;
     width: 100px;
   }
 
   .search input::placeholder {
-    font-size: 15px;
+    font-size: 13px;
   }
   .weather-icon {
     width: 140px;
