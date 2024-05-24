@@ -1,4 +1,4 @@
-# weather-app
+# Weather-App
 
 This project is Mobile Responsive Using Media queries without Bootstrap
 
