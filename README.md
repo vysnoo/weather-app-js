@@ -1,4 +1,5 @@
 # Weather-App
+Simply enter the name of any city into the text box, and Weather app will fetch and display the current temperature, humidity, and wind speed for that location using data from the OpenWeather API.
 
 This project is Mobile Responsive Using Media queries without Bootstrap
 
